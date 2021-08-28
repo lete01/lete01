@@ -189,6 +189,7 @@ echo ""
 if [[ ${newVersion} = "7" ]] ; then
 systemctl daemon-reload
 fi
+echo 'SS5_OPTS=" -u root -b 0.0.0.0:1090"' > /etc/sysconfig/ss5
 service ss5 start
 echo ""
 echo "Socks5安装完毕！"

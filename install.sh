@@ -199,7 +199,7 @@ echo "默认用户名: "${uname}
 echo "默认密码  : "${upasswd}
 echo "默认端口  : "${port}
 echo ""
-echo "添加QQ:1527792388 讨论"
+echo "添加15223171618 讨论"
 echo ""
 exit 0
 fi

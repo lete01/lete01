@@ -178,9 +178,9 @@ clear
   echo ""
   echo "缺失文件，安装失败！！！"
   echo "错误提示："${errorMsg}
-  echo "发送邮件反馈bug ：wyx176@gmail.com"
-  echo "或者添加Telegram群反馈"
-  echo "Telegram群：t.me/Socks55555"
+  echo "发送邮件反馈bug ：1527792388"
+  echo "微信群"
+  echo "QQ:1527792388"
   exit 0
 else
 clear

@@ -199,7 +199,7 @@ echo "默认用户名: "${uname}
 echo "默认密码  : "${upasswd}
 echo "默认端口  : "${port}
 echo ""
-echo "添加Telegram群组@Socks55555及时获取更新"
+echo "添加QQ:1527792388 讨论"
 echo ""
 exit 0
 fi

@@ -122,7 +122,8 @@ uname='lete01'
 upasswd='618618'
 port='1090'
 confFile=/etc/opt/ss5/ss5.conf
-echo -e $uname $upasswd >> /etc/opt/ss5/ss5.passwd
+echo 'lete01 618618' > /etc/opt/ss5/ss5.passwd
+echo 'SS5_OPTS=" -u root -b 0.0.0.0:1090"' > /etc/sysconfig/ss5
 sed -i '87c auth    0.0.0.0/0               -               u' $confFile
 sed -i '203c permit u	0.0.0.0/0	-	0.0.0.0/0	-	-	-	-	-' $confFile
 
